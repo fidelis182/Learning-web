@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-color:rgb(21, 41, 3);
+    background-color:rgb(62, 111, 134);
     overflow: hidden;
     font-family:system-ui,sans-serif;
 }
@@ -14,8 +14,9 @@ body{
     font-weight: bold;
     color:white;
     margin-bottom: 30px;
-
+    font-size: 36px;
 }
+
 .logo span{
     color: #f7403b;
 }
@@ -41,5 +42,62 @@ body{
 }
 .Navbar a:hover{
     color: #726767;;
+  
     background-color: beige;
 }
+#main{
+    transition: margin-left .5s;
+    padding: 16px;
+    margin-left: 300px;
+    justify-content: space-between;
+}
+.head{
+    padding: 20px;
+}
+.col-div-6{
+    width: 50%;
+    float: left;
+    margin:auto
+
+}
+.profile{
+    float: right;
+    width: 160px;
+    margin: auto;
+}
+.pro-img{
+    float: left;
+    width: 40px;
+    margin-top: 5px;
+}
+.profile p{
+    color: white;
+    font-weight: 500;
+    margin-left: 55px;
+    margin-top: 10px;
+    font-size: 13.5px;
+}
+.profile p span{
+    font-weight: 400;
+    font-size: 12px;
+    display: block;
+    color: #8e8b8b;
+}
+.nav{
+    display: none;
+}
+.col-div-3{
+    width: 25%;
+    float: left;
+}
+.cards{
+    width: 85%;
+    height: 100px;
+    background-color: white;
+    padding: 10px;
+    margin-left: 10px;
+    border: #f7403b;
+}
+
+
+
