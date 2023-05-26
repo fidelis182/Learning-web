@@ -1,8 +1,38 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
 body {
-    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    background-image: url(/home/nzovia/WebLearning/Images/capchino.jpeg);
+    background-size: 100%;
+    background-position: center;
     font-family: sans-serif;
-    padding: 20px;
+    
   }
+  .Menu-bar{
+    background:rgb(0,100,0);
+    text-align: right;
+  }
+  .Menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+  }
+  .Menu-bar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+  }
+  .Menu-bar ul li a{
+    text-decoration: none;
+    color: white;
+  }
+.active,  .Menu-bar ul li:hover{
+  background:brown;
+  border-radius: 3px;
+
+}
   
   h1 {
     font-size: 40px;
@@ -92,45 +122,3 @@ body {
   a:active {
     color: brown;
   }
-  .landing{
-    width:100%;
-    background-color: burlywood;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 150px;
-    padding: 20px;
-    max-width: 1000px ;
-  }
-  /* Add a black background color to the top navigation */
-.topnav {
-  background-color: #633201;
-  overflow: hidden;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #04AA6D;
-  color: white;
-}
-.Mine{
-  height:300px;
-  width: 300px;
-  float: left;
-  margin-top: 25px;
-}
