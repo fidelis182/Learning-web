@@ -47,7 +47,8 @@
     display: flex;
 }
 .hero .left{
-    background-color: #2c1e1e;
+    background-color: #7c573c;
+    padding-left: 50px;
 }
 .hero .right{
     background-color: #7c573c;
@@ -55,5 +56,12 @@
 .hero .hero_split{
     width:50%;
     min-height: 100vh;
+    display: flex;
+    align-items: center;
 
+}
+.left .content{
+    color: white;
+    font-size: 20px;
+    letter-spacing: normal;
 }
